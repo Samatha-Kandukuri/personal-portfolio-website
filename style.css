@@ -73,3 +73,33 @@ footer {
         margin: 15px;
     }
 }
+/* =========================
+   NAVBAR STYLES
+========================= */
+
+.navbar {
+    background-color: #1f2f3f;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #00bcd4;
+}
