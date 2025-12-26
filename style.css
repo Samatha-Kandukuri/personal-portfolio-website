@@ -103,3 +103,7 @@ footer {
 .navbar ul li a:hover {
     color: #00bcd4;
 }
+/* Space below role text */
+.role {
+    margin-bottom: 60px;
+}
